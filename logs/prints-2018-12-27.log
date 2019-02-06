@@ -1,0 +1,9 @@
+19:33:15.383 [main] INFO  com.resourses.Base - on Start
+19:33:15.390 [main] INFO  com.resourses.Base - on Finish
+19:33:15.390 [main] INFO  com.resourses.Base - on Start
+19:33:17.563 [main] INFO  com.resourses.Base - Driver is initialized
+19:33:17.564 [main] INFO  com.resourses.Base - On Test Start
+19:33:24.504 [main] INFO  com.resourses.Base - Navigatedto homePage
+19:33:27.521 [main] INFO  com.resourses.Base - On test Success
+19:33:27.521 [main] INFO  com.resourses.Base - On Test Start
+19:33:29.588 [main] INFO  com.resourses.Base - Navigatedto homePage

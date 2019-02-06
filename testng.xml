@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.mavenfirst.app.ListenerFile"/>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+
+</listeners>
+  <test thread-count="5" name="Validating Navigation Bar">
+    <classes>
+      <class name="com.mavenfirst.app.ValidateNavBar"/>
+      </classes>
+      </test>
+      
+      <test name="VAlidating Title">
+      <classes>
+      <class name="com.mavenfirst.app.Validatetile"/>
+     </classes>
+        </test>
+        
+      <test name ="Validating App Test">
+      <classes>
+      <class name="com.mavenfirst.app.AppTest"/>
+      
+       </classes>
+       </test >
+      <test name="Validating HomPage">
+      <classes>
+      <class name="com.mavenfirst.app.HomePage"/>
+     
+    </classes>
+     </test>
+  
+</suite> <!-- Suite -->

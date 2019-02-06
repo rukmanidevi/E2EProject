@@ -1,0 +1,4 @@
+com\resourses\Base.class
+com\pageObject\LandingPage.class
+com\mavenfirst\app\App.class
+com\pageObject\LoginPage.class

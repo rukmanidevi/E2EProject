@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.mavenfirst.app.ListenerFile"/>
+  </listeners>
+  <test name="VAlidating Title(failed)">
+    <classes>
+      <class name="com.mavenfirst.app.HomePage">
+        <methods>
+          <include name="browseClose"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.mavenfirst.app.HomePage -->
+      <class name="com.mavenfirst.app.ValidateNavBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="browseClose"/>
+        </methods>
+      </class> <!-- com.mavenfirst.app.ValidateNavBar -->
+      <class name="com.mavenfirst.app.Validatetile">
+        <methods>
+          <include name="initialize"/>
+          <include name="browseClose"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- com.mavenfirst.app.Validatetile -->
+    </classes>
+  </test> <!-- VAlidating Title(failed) -->
+  <test name="Validating HomPage(failed)">
+    <classes>
+      <class name="com.mavenfirst.app.HomePage">
+        <methods>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="browseClose"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.mavenfirst.app.HomePage -->
+      <class name="com.mavenfirst.app.ValidateNavBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="browseClose"/>
+        </methods>
+      </class> <!-- com.mavenfirst.app.ValidateNavBar -->
+      <class name="com.mavenfirst.app.Validatetile">
+        <methods>
+          <include name="initialize"/>
+          <include name="browseClose"/>
+        </methods>
+      </class> <!-- com.mavenfirst.app.Validatetile -->
+    </classes>
+  </test> <!-- Validating HomPage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
