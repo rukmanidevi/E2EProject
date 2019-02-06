@@ -19,6 +19,8 @@ public class LoginPage {
 	{
 		return driver.findElement(email);
 		
+		
+		// Comment introduced
 	}
 	public WebElement getPassWord() {
 	
